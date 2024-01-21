@@ -40,18 +40,18 @@ some school walked under a principal
 
 1. The solution will need to create a list to store the words of the sentence _e.g._ ``wordlist = []``
 
-Initially this list will be empty.
+2. Initially this list will be empty.
 
-2. The words will need to be selected at random from each list.
-3. The following line of code 
+3. The words will need to be selected at random from each list.
+4. The following line of code 
 may be adapted to generate a random word.
 
 ````py
 print(random.choice(nouns))
 ````
 
-4.  As words are randomly selected they can be **_appended_** to ``wordlist``.
-5.  Once the seven words have been generated they can be displayed in a sentence.
+5.  As words are randomly selected they can be **_appended_** to ``wordlist``.
+6.  Once the seven words have been generated they can be displayed in a sentence.
 
 
 # ✨ Extra Credit
