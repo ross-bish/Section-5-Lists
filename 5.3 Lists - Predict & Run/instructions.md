@@ -32,13 +32,14 @@ print(Sentence)
 - Experiment with the operations shown below. 👇
 
 
+| Operation         | Description                                 | Sample Code |
+|-------------------|---------------------------------------------|-------------------------------------------------------------|
+| Output item       | Outputs a single item from the array        | `print(arrayName[itemIndex])` <br> Example: `print(sweets[3])` |
+| Edit item         | Changes or replaces an item in an array.    | `arrayName[itemIndex] = "New data"` <br> Example: `sweets[1] = "Haribo"` |
+| Add an item       | Puts a new item onto the end of the array   | `arrayName.append("new data")` <br> Example: `sweets.append("Galaxy")` |
+| Remove an item    | Removes an item from the array              | `arrayName.pop(itemIndex)` <br> Example: `sweets.pop(2)` |
+| Output all items  | Outputs every item in the array one by one using a loop | `for i in range(0, len(arrayName)):` <br> `print(arrayName[i])` <br> Example: <br> `for i in range(0, len(sweets)):` <br> `print(sweets[i])` <br><br> **💡Note:** <br> You need to know how to do the for-loop version for the exam. <br><br> You can also use: <br> `print(sweets)` |
 
-| Output item      | Outputs a single item from the array.                    | print(arrayName\[itemIndex\])<br><br>``print(sweets[3])``                                                                                                                                                                                                                           |
-| ---------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edit item        | Changes or replaces an item in an array.                 | arrayName\[itemIndex\] = New data<br><br>``sweets[1] = "Haribo"``                                                                                                                                                                                                                   |
-| Add an item      | Puts a new item onto the end of the array                | arrayName.append(new data)<br><br>``sweets.append("Galaxy")``                                                                                                                                                                                                                         |
-| Remove an item   | Removes an item from the array                           | arrayName.pop(itemIndex)<br><br>``sweets.pop(2)``                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                              |
-| Output all items | Outputs every item in the array one by one using a loop. | for i in range(0, len(arrayName)):<br>print(arrayName\[i\])<br><br>``for i in range(0, len(sweets)):``<br>``print(sweets[i])``<br><br>#You need to know how to do the for loop version for the exam.<br><br>You can also use... <br><br>``print(sweets)``<br> |
 
 
 ## 🤔Help! My code doesn't work
