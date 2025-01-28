@@ -1,6 +1,6 @@
 # Textbook Tasks 👨‍💻
 
-- Complete the following tasks in `main.py`.
+- Complete the following tasks in `Thonny`.
 - Remember to use appropriate `# comments` to explain what your code is doing.
 
 
